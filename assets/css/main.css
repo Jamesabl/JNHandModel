@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @font-face{
-	font-family: 'pokemonGB';
-	src: url('../webfonts/pokemongb.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('../webfonts/pokemongb.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-family: 'Lora';
+	src: url('../webfonts/Lora.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('../webfonts/Lora.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	 font-display: swap;
 }
 
@@ -1517,7 +1517,7 @@ input, select, textarea {
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
-		font-family: 'pokemonGB';
+		font-family: 'Lora';
 	}
 	}
 
@@ -1679,7 +1679,7 @@ input, select, textarea {
 		transition: background-color .2s ease-in-out;
 		-webkit-appearance: none;
 		position: relative;
-		font-family: 'pokemonGB';
+		font-family: 'Lora';
 		display: inline-block;
 		color: rgb(0, 0, 0) !important;
 		text-decoration: none;
@@ -2502,21 +2502,22 @@ body{
 }
 
 .bannertext {
-	font-family: 'pokemonGB';
+	font-family: 'Lora';
 	text-align: center;
-	font-size: x-large;
+	font-size: xx-large;
+	padding-top: 10px;
 }
 
 .bannertext2 {
-	font-family: 'pokemonGB';
+	font-family: 'Lora';
 	text-align: center;
 	font-size: large;
 }
 
 .bannertext3 {
-	font-family: 'pokemonGB';
+	font-family: 'Lora';
 	text-align: center;
-	font-size: small;
+	font-size: medium;
 }
 
 
@@ -2560,19 +2561,19 @@ body{
 		max-width: 200px;
 	}
 	.bannertext {
-		font-family: 'pokemonGB';
+		font-family: 'Lora';
 		text-align: center;
-		font-size: small;
+		font-size: x-large;
 	}
 	.bannertext2 {
-		font-family: 'pokemonGB';
+		font-family: 'Lora';
 		text-align: center;
-		font-size: x-small;
+		font-size: medium;
 	}
 	.bannertext3 {
-		font-family: 'pokemonGB';
+		font-family: 'Lora';
 		text-align: center;
-		font-size: x-small;
+		font-size: medium;
 	}
 
 }
@@ -2672,7 +2673,7 @@ hr {
 
 
 .popup span {
-	font-family: 'pokemonGB';
+	font-family: 'Lora';
 	text-align: center;
 	font-size: medium;
 }
